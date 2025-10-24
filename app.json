@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "allexameducation",
+    "name": "All Exam Education",
     "slug": "allexameducation",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -20,10 +20,16 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.adrielvaidya.allexameducation"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "b6d71237-9658-4f54-8a80-48fab34c5bdd"
+      }
     }
   }
 }
