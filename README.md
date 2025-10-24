@@ -1,47 +1,68 @@
-UP Police Preparation PDF App
+🚓 UP Police Preparation PDF App
 📖 Overview
-UP Police Preparation PDF App is a React Native application designed to help aspirants read and revise important notes for UP Police exams.
-The app provides a list of study PDFs and allows users to view them in a popup modal with a simple and clean interface.
-🚀 Features
-Display a list of important UP Police preparation PDFs
-Search functionality to quickly find any PDF
-Popup modal to view PDF directly inside the app
+UP Police Preparation PDF App is a React Native application designed for UP Police exam aspirants.
+It helps you read and revise important notes directly on your device.
+Displays a list of PDFs
+Lets you open PDFs in a popup modal
 Supports local and online PDFs
-Clean, modern React Native UI with gradient headers
-Pull-to-refresh functionality for the list
+Clean React Native UI with gradient headers
+🚀 Features
+📄 PDF List – All important UP Police PDFs in one place
+🔍 Search Functionality – Quickly find any PDF
+🖼️ Popup Modal – View PDFs without leaving the app
+🌐 Local & Online PDFs – Works offline and online
+🎨 Modern UI – Gradient headers and smooth card design
+🔄 Pull-to-refresh – Refresh the PDF list easily
 💡 Screenshots
-
++-----------------+     +-----------------+
+|  PDF List       |     |  PDF Viewer     |
++-----------------+     +-----------------+
+(Replace these placeholders with actual screenshots in GitHub)
 🛠️ Installation
-Clone this repository:
-git clone https://github.com/MSSOFTPC/All-Exam-Education
-Navigate to the project folder:
+# 1. Clone repository
+git clone https://github.com/MSSOFTPC/All-Exam-Education.git
+
+# 2. Go to project folder
 cd All-Exam-Education
-Install dependencies:
+
+# 3. Install dependencies
 npm install
 # or
 yarn install
-Start the Expo server:
+
+# 4. Start Expo
 npx expo start
-Open the app on Android/iOS emulator or physical device using Expo Go.
+Open on Android/iOS emulator or Expo Go app on your device.
 📁 Project Structure
-/assets
-   /pdf      # Local PDF files
-/App.js      # Main application
-/package.json
-assets/pdf/ contains all local PDFs for the app.
-App.js contains React Native code for PDF listing and modal viewer.
+All-Exam-Education/
+├─ assets/
+│   └─ pdf/             # Local PDF files
+├─ App.js               # Main React Native application
+├─ package.json
+└─ README.md
+assets/pdf/ → contains all local PDFs
+App.js → React Native code for PDF listing + modal viewer
 ⚡ Usage
-Launch the app.
-Search for the PDF you want to read using the search bar.
-Tap on the PDF name → Popup modal opens.
-Read the PDF directly in the app.
-Close the modal using the Close button.
+1. Launch the app
+2. Use the search bar to find a PDF
+3. Tap on PDF → Popup modal opens
+4. Read the PDF inside the app
+5. Close modal using "Close" button
 🧰 Dependencies
-React Native
-Expo
+# Core dependencies
+react-native
+expo
+
+# PDF viewing
 react-native-pdf
+
+# Gradient header
 expo-linear-gradient
 👨‍💻 Contributing
-Feel free to fork the repository, add new PDFs, improve UI, or enhance search functionality. Pull requests are welcome!
+Fork this repository
+Add new PDFs
+Improve UI and UX
+Enhance search functionality
+Make a Pull Request
 📄 License
-This project is licensed under MIT License.
+MIT License
